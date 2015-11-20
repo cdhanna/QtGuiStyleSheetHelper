@@ -63,7 +63,7 @@ s = Styles()
 evilWidget.setStyleSheet(str(s)) #important bit that sets the style.
 ```
 
-Thats pretty much it. The rest is up to you! Quick notes aboute it
+Thats pretty much it. The rest is up to you! Quick notes about it
 
 * to select an object, use `s['selection']` where _selection_ is any valid Qt Style Sheet selection. You can see those in the [documentation.](http://doc.qt.io/qt-4.8/stylesheet.html)
 * You can chain `set` methods together like I did in the examples, but you can also call them one after another.
