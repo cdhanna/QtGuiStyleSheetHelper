@@ -65,7 +65,7 @@ evilWidget.setStyleSheet(str(s)) #important bit that sets the style.
 
 Thats pretty much it. The rest is up to you! Quick notes about it
 
-* to select an object, use `s['selection']` where _selection_ is any valid Qt Style Sheet selection. You can see those in the [documentation.](http://doc.qt.io/qt-4.8/stylesheet-syntax.html#selector-types)
+* To select an object, use `s['selection']` where _selection_ is any valid Qt Style Sheet selection. You can see those in the [documentation.](http://doc.qt.io/qt-4.8/stylesheet-syntax.html#selector-types)
 * You can chain `set` methods together like I did in the examples, but you can also call them one after another.
     
     ```python
@@ -74,3 +74,4 @@ Thats pretty much it. The rest is up to you! Quick notes about it
     labels.set('background-color', 'red')
     labels.set('color', 'green')
     ```
+* Generally you would make a `Styles` for the entire QFrame or window or something, and then apply the style to that. 
