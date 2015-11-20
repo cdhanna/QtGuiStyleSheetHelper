@@ -13,7 +13,7 @@ from QtStyleHelper import Styles
 
 PySide's QtGui code is great. It lets you style widgets using css-like style sheets. Look here for the [Style Sheet Reference page](http://doc.qt.io/qt-4.8/stylesheet.html)
 
-But managing the style sheets are a bit of pain. You could make a big long string yourself, like 
+But managing the style sheets is a bit of pain. You could make a big long string yourself, like 
 
 ```python
 myStyle = 'QLabel{ background-color: red; }'
