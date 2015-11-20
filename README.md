@@ -28,7 +28,7 @@ labels = (s['QLabel']
     )
 ```
 
-Its more code, yes, but it is way easier to extend later. For example, if you wanted to implement some of the given [examples](http://doc.qt.io/qt-4.8/stylesheet-examples.html), writing the string version would be a pain, but writing it with this utility class is a breeze. Take The style example...
+Its more code, yes, but it is way easier to extend later. For example, if you wanted to implement some of the given [examples](http://doc.qt.io/qt-4.8/stylesheet-examples.html), writing the string version would be a pain, but writing it with this utility class is a breeze. Take the pushbutton style example...
 
 ```css
 QPushButton#evilButton {
